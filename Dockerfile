@@ -38,4 +38,4 @@ CMD ["pm2-runtime", "index.js"]
 # docker rm l3mon-container
 
 # Linkgen
-# https://raw.githubusercontent.com/efxtv/EFX-Tv-Bookmarks/main/bin/L3MONPro/linkgen-wsl-linux
+
