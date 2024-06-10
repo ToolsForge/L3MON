@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     openjdk-8-jre
 
-RUN git clone https://github.com/efxtv/L3MON.git
+RUN git https://github.com/ToolsForge/L3MON.git
 
 WORKDIR /L3MON
 
@@ -31,7 +31,7 @@ CMD ["pm2-runtime", "index.js"]
 # Staart docker
 # docker run -d -p 22533:22533 --name l3mon-container l3mon-image
 
-# Start L3MON Working directory
+# In L3MON Working directory
 # docker exec -it l3mon-container /bin/bash
 
 # Remove the Existing Container
